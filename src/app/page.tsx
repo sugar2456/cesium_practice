@@ -1,6 +1,6 @@
-import NavComponent from "./components/Navi/NaviComponent";
+import NavComponent from "./components/navi/NaviComponent";
 
-export default function Home() {
+export default async function Home() {
   return (
     <main>
       <NavComponent />
