@@ -47,6 +47,8 @@ google map apiを利用した3Dタイル。すごい綺麗
     <source src="assets/videos/air_plane_video.mp4" type="video/mp4">
 </video>
 
+https://github.com/user-attachments/assets/a629ae05-5ac2-4c2b-8c67-8d97084bcfc4
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
