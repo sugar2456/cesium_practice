@@ -1,8 +1,6 @@
-FROM node:23-slim
+FROM node:24-slim
 
 WORKDIR /app
 
 # ソースコードをコピー
 COPY . .
-
-RUN npm install -g pnpm
