@@ -2,7 +2,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { NAV, NavItem } from "@/app/components/Navi/nav.config";
+import { NAV, NavItem } from "@/app/components/navi/nav.config";
 
 function isActive(pathname: string, item: NavItem) {
   return item.match === "exact"
