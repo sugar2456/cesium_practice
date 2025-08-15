@@ -34,7 +34,8 @@ http://localhost:3000/feature/3d_tiles
 <img src='assets/images/3d_tiles.png' width='1080'>
 
 ### google 3d tiles
-google map apiを利用した3Dタイル。すごい綺麗
+google map apiを利用した3Dタイル。すごい綺麗  
+ただ普通の3d tilesより少し重い
 
 <img src='assets/images/google_3d_tiles.png' width='1080'>
 
