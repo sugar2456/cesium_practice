@@ -39,6 +39,14 @@ google map apiを利用した3Dタイル。すごい綺麗
 
 <img src='assets/images/google_3d_tiles.png' width='1080'>
 
+### 地形のプロットと移動
+緯度、経度と高さを渡すとポイントをプロットすることができる。
+そして、点と点をつなげることで動きをつけることもできる
+
+<video controls playsinline muted width="720">
+    <source src="assets/videos/air_plane_video.mp4" type="video/mp4">
+</video>
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
