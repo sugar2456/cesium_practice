@@ -11,6 +11,7 @@ export type NavItem = {
 
 export const NAV: NavItem[] = [
   { label: "3Dタイル", href: "/feature/3d_tiles", match: "startsWith" },
+  { label: "google map 3Dタイル", href: "/feature/google_3d_tiles", match: "startsWith" },
 //   {
 //     label: "設定",
 //     href: "/settings",
