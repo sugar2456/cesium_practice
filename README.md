@@ -4,11 +4,11 @@ cesiumjs 練習用リポジトリ
 
 起動までに必要なセットアップ
 
-node_modulesのインストールとcesium系の資材をpublicにコピーする
+node_modulesのインストール
+※node_modulesのインストールの後にcesium系の資材をpublicにコピーされる
 
 ```bash
 npm i
-npm run cesium_copy
 ```
 
 開発サーバの起動
@@ -18,20 +18,25 @@ npm run dev
 
 ## 画面
 
-ホーム画面  
+### ホーム画面  
 各機能のサンプルに遷移する
 
 ```
 http:localhost:3000/
 ```
 
-3d tiles 
+### 3d tiles 
 3Dタイルのサンプル画面
 ```
 http://localhost:3000/feature/3d_tiles
 ```
 
 <img src='assets/images/3d_tiles.png' width='1080'>
+
+### google 3d tiles
+google map apiを利用した3Dタイル。すごい綺麗
+
+<img src='assets/images/google_3d_tiles.png' width='1080'>
 
 ## Deploy on Vercel
 
