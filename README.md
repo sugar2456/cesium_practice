@@ -31,6 +31,8 @@ http:localhost:3000/
 http://localhost:3000/feature/3d_tiles
 ```
 
+<img src='assets/images/3d_tiles.png' width='1080'>
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
