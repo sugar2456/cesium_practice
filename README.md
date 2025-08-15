@@ -2,26 +2,34 @@ cesiumjs 練習用リポジトリ
 
 ## Getting Started
 
-First, run the development server:
+起動までに必要なセットアップ
 
+node_modulesのインストールとcesium系の資材をpublicにコピーする
+
+```bash
+npm i
+npm run cesium_copy
+```
+
+開発サーバの起動
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 画面
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+ホーム画面  
+各機能のサンプルに遷移する
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+http:localhost:3000/
+```
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3d tiles 
+3Dタイルのサンプル画面
+```
+http://localhost:3000/feature/3d_tiles
+```
 
 ## Deploy on Vercel
 
