@@ -13,6 +13,7 @@ export const NAV: NavItem[] = [
   { label: "3Dタイル", href: "/feature/3d_tiles", match: "startsWith" },
   { label: "google map 3Dタイル", href: "/feature/google_3d_tiles", match: "startsWith" },
   { label: "air plane tracker", href: "/feature/air_plane_tracker", match: "startsWith" },
+  { label: "fitbit tracker", href: "/feature/fitbit_tracker", match: "startsWith" },
 //   {
 //     label: "設定",
 //     href: "/settings",
